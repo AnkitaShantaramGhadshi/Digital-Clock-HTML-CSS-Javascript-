@@ -1,0 +1,29 @@
+html,body{
+    display: grid;
+    place-items: center;
+    font-family: 'Lato', sans-serif;
+    background: rgb(53, 102, 118);
+}
+.wrapper{
+    width: 420px;
+    height: 110px;
+    /*background: red;*/
+    background: linear-gradient(135deg,#14ffe9,#ffeb3B,#ff00e0);
+    margin-top: 40%;
+    border-radius: 4px;
+}
+.wrapper .clock{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 405px;
+    height: 95px;
+    background: rgb(53, 102, 118);
+}
+.clock #time{
+    font-size: 65px;
+    padding: 20px;
+    color: white;
+}
