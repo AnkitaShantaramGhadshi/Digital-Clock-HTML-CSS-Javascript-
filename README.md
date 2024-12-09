@@ -1,1 +1,1 @@
-# Digital-Clock-HTML-CSS-Javascript-
+# Digital-Clock
